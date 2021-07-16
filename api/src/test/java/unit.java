@@ -7,6 +7,7 @@ class apiUnitTests {
     @Test
     void justAnExample() {
     	Product testProd = new Product((long)9999, "testWidget", 19.95);
+        System.out.println("Mano testing unit");
         assertEquals(testProd.getProductId(), 9999);
     }
 }
